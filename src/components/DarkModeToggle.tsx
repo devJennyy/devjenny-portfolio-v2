@@ -1,16 +1,22 @@
 import React from "react";
 import { useDarkMode } from "../hooks/useDarkMode";
+import "./DarkModeToggle.css"; // Ensure this CSS is updated
 
 const DarkModeToggle: React.FC = () => {
   const [darkMode, setDarkMode] = useDarkMode();
 
   return (
-    <button
-      onClick={() => setDarkMode(!darkMode)}
-      className="px-4 py-2 bg-gray-200 dark:bg-gray-800 rounded absolute right-10 top-10"
-    >
-      Click for magic!
-    </button>
+    <div data-bg-change>
+      <div className={`toggle daynight small ${darkMode ? 'checked' : ''}`}>
+        <input
+          id="knobState-dns"
+          type="checkbox"
+          checked={darkMode}
+          onChange={() => setDarkMode(!darkMode)}
+        />
+        <label htmlFor="knobState-dns" className="knob w-32 h-32"></label>
+      </div>
+    </div>
   );
 };
 

@@ -11,6 +11,9 @@ module.exports = {
         secondary: "#FF5555",
         primaryDark: "#B1BAED",
       },
+      borderRadius: {
+        '2.5xl': '20px',
+      },
     },
   },
   plugins: [],
