@@ -1,7 +1,7 @@
 `Work In Progress`
 
 # Portfolio Resume
-A simple version of my porfolio website  https://devjenny-portfolio-v2.vercel.app/
+Version 2 of my portfolio website https://devjenny-portfolio-v2.vercel.app/
 
 ## Tech Used
 - React
