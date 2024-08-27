@@ -6,6 +6,13 @@
 html, body {
   height: 100%;
   width: 100%;
+  color: #202224;
+  background-color: #F9C1C2;
+}
+
+.dark html, .dark body {
+  color: #B1BAED;
+  background-color: #0B0D21;
 }
 
 * {

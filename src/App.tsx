@@ -1,9 +1,12 @@
 import "./App.css";
+import DarkModeToggle from "./components/DarkModeToggle";
 
 function App() {
   return (
     <>
-      <div className="w-full h-full bg-[#F9C1C2]"></div>
+      <div className="w-full">
+        <DarkModeToggle />
+      </div>
     </>
   );
 }
