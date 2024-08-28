@@ -1,15 +1,14 @@
-import React from "react";
 import {
+  FaFacebookMessenger,
   FaGithubAlt,
   FaInstagram,
   FaLinkedinIn,
-  FaWhatsapp,
 } from "react-icons/fa";
 
 const socialLinks = {
-  whatsapp: {
-    href: "https://wa.me/639627458011",
-    icon: <FaWhatsapp size={22} />,
+  messenger: {
+    href: "https://m.me/devjennyy",
+    icon: <FaFacebookMessenger size={19} />,
   },
   linkedin: {
     href: "https://www.linkedin.com/in/jennypieloor/",
@@ -29,7 +28,7 @@ const SocialLinks = () => {
   return (
     <div className="flex flex-col gap-5 relative w-full my-9">
       <div className="faded-side-gradient dark:faded-side"></div>
-      <div className="flex justify-center items-center gap-11 text-secondary px-[5rem]">
+      <div className="flex justify-center items-center gap-11 text-secondary dark:text-primaryDark px-[5rem]">
         {Object.values(socialLinks).map(({ href, icon }) => (
           <a key={href} href={href}>
             {icon}

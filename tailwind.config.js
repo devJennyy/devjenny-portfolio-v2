@@ -11,6 +11,7 @@ module.exports = {
         secondary: "#FF5555",
         primaryDark: "#B1BAED",
         secondaryDark: "#0C0E38",
+        tertiaryDark: "#212760",
       },
       borderRadius: {
         '2.5xl': '20px',
