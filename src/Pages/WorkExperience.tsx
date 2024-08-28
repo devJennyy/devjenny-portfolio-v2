@@ -1,11 +1,5 @@
-import React from 'react'
-
 const WorkExperience = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default WorkExperience
+export default WorkExperience;
