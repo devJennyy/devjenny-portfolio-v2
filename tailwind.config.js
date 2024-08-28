@@ -2,7 +2,7 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  darkMode: "class",
+  darkMode: 'selector',
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
@@ -10,6 +10,7 @@ module.exports = {
         primary: "#202224",
         secondary: "#FF5555",
         primaryDark: "#B1BAED",
+        secondaryDark: "#0C0E38",
       },
       borderRadius: {
         '2.5xl': '20px',

@@ -1,6 +1,6 @@
 import React from "react";
-import { useDarkMode } from "../hooks/useDarkMode";
-import "./DarkModeToggle.css"; // Ensure this CSS is updated
+import "./DarkModeToggle.css";
+import { useDarkMode } from "../../hooks/useDarkMode";
 
 const DarkModeToggle: React.FC = () => {
   const [darkMode, setDarkMode] = useDarkMode();
