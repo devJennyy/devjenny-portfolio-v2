@@ -12,7 +12,7 @@ const WhatsappIcon = <FaWhatsappIcon size={19} className="mb-[1px]" />;
 const ProfileOverview = () => {
   return (
     <div className="flex flex-col w-full max-w-[27.5rem] rounded-2.5xl gap-8">
-      <div className="dark:gradient">
+      <div className="dark:gradient border-transparent border-y-[0.5px] border-x rounded-2.5xl dark:border-none">
         <div className="flex flex-col justify-end items-center w-full h-[27.5rem] bg-white gradient-background rounded-2.5xl p-10 relative">
           <div
             className="max-w-[13rem] w-full h-[12rem] rounded-2.5xl bg-no-repeat object-cover absolute top-[-5rem]"

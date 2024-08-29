@@ -62,7 +62,16 @@
     border-radius: 20px;
     padding: 1px;
   }
-  
+
+  .gradient-two {
+    background: linear-gradient(to right, #3461FF, #8454EB, #3461FF) top/100% 3px no-repeat,
+                linear-gradient(to bottom, #3461FF, #3461FF) left/12px calc(100% - 3px) no-repeat,
+                linear-gradient(to bottom, #3461FF, #8454EB) right/12px calc(100% - 3px) no-repeat;
+    border-radius: 20px 20px 0 0;
+    padding: 1px;
+    position: relative;
+}
+
   .gradient > .gradient-background {
     background-color: #0C0E38;
   }

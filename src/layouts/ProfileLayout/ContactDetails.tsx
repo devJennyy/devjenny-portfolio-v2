@@ -16,7 +16,7 @@ const contactDetails = [
 
 const ContactDetails = () => {
   return (
-    <div className="dark:gradient">
+    <div className="dark:gradient border-transparent border-y-[0.5px] border-x rounded-2.5xl dark:border-none">
       <div className="flex flex-col justify-between w-full h-[12.5rem] bg-white gradient-background rounded-2.5xl px-10 py-7">
         {contactDetails?.map(({ icon, label, value }) => (
           <div

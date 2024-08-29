@@ -11,12 +11,14 @@ function App() {
       <div className="max-w-[1920px] mx-auto w-full h-full pt-48 px-32">
         <div className="flex justify-between items-start w-full h-full gap-8">
           <ProfileOverview />
-          <div className="w-full h-full bg-white dark:bg-secondaryDark rounded-tr-2.5xl rounded-tl-2.5xl p-8">
-            <Routes>
-              <Route path="/about-me" element={<AboutMe />} />
-              <Route path="/work-experience" element={<WorkExperience />} />
-              <Route path="/projects" element={<Projects />} />
-            </Routes>
+          <div className="dark:gradient-two w-full h-full">
+            <div className="w-full h-full bg-white dark:bg-secondaryDark rounded-tr-2.5xl rounded-tl-2.5xl p-8 gradient-background">
+              <Routes>
+                <Route path="/about-me" element={<AboutMe />} />
+                <Route path="/work-experience" element={<WorkExperience />} />
+                <Route path="/projects" element={<Projects />} />
+              </Routes>
+            </div>
           </div>
           <SidebarLayout />
         </div>
