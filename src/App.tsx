@@ -9,11 +9,11 @@ import Contact from "./Pages/Contact";
 function App() {
   return (
     <Router>
-      <div className="max-w-[1920px] mx-auto w-full h-full pt-48 px-32">
+      <div className="max-w-[1920px] mx-auto w-full pt-48 px-32 bg-lightmode dark:bg-darkmode">
         <div className="flex justify-between items-start w-full h-full gap-8">
           <ProfileOverview />
-          <div className="dark:gradient-two w-full h-full">
-            <div className="w-full h-full bg-white dark:bg-secondaryDark rounded-tr-2.5xl rounded-tl-2.5xl p-10 gradient-background border-transparent border-y-[0.5px] border-x dark:border-none">
+          <div className="dark:gradient-two w-full">
+            <div className="w-full h-full bg-white dark:bg-secondaryDark rounded-tr-2.5xl rounded-tl-2.5xl p-14 gradient-background border-transparent border-y-[0.5px] border-x dark:border-none">
               <Routes>
                 <Route path="/about-me" element={<AboutMe />} />
                 <Route path="/resume" element={<Resume />} />

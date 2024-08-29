@@ -58,31 +58,34 @@
   }
 
   .gradient {
-    background: linear-gradient(to right, #3461FF, #8454EB, #3461FF);
+    background: linear-gradient(to right, #3461ff, #8454eb, #3461ff);
     border-radius: 20px;
     padding: 1px;
   }
 
   .gradient-two {
-    background: linear-gradient(to right, #3461FF, #8454EB, #3461FF) top/100% 3px no-repeat,
-                linear-gradient(to bottom, #3461FF, #3461FF) left/12px calc(100% - 3px) no-repeat,
-                linear-gradient(to bottom, #3461FF, #8454EB) right/12px calc(100% - 3px) no-repeat;
+    background: linear-gradient(to right, #3461ff, #8454eb, #3461ff) top/100%
+        3px no-repeat,
+      linear-gradient(to bottom, #3461ff, #3461ff) left/12px calc(100% - 3px)
+        no-repeat,
+      linear-gradient(to bottom, #3461ff, #8454eb) right/12px calc(100% - 3px)
+        no-repeat;
     border-radius: 20px 20px 0 0;
     padding: 1px;
     position: relative;
-}
-
-.gradient-button {
-  background: linear-gradient(to right, #3461FF, #8454EB, #3461FF);
-  padding: 1px;
-}
-
-.gradient-button > .gradient-background-button {
-  background-color: #0C0E38;
-}
+  }
 
   .gradient > .gradient-background {
-    background-color: #0C0E38;
+    background-color: #0c0e38;
+  }
+
+  .gradient-flat {
+    background: linear-gradient(to right, #3461ff, #8454eb, #3461ff);
+    padding: 1px;
+  }
+
+  .gradient-flat > .gradient-background-flat {
+    background-color: #0c0e38;
   }
 }
 
@@ -91,7 +94,6 @@ body {
   height: 100%;
   width: 100%;
   color: #202224;
-  background-color: #f9c1c2;
 }
 
 .dark html,
