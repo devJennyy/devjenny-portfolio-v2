@@ -1,25 +1,30 @@
+import { Link } from "react-router-dom";
 import DarkModeToggle from "../../components/DarkModeSwitch/DarkModeToggle";
 
 const iconData = [
   {
+    page: "/about-me",
     light: "/icon/about-me-icon.svg",
     dark: "/icon/about-me-dark-icon.svg",
     alt: "About Me",
     size: "h-[25px] w-[25px]",
   },
   {
+    page: "/resume",
     light: "/icon/work-experience-icon.svg",
     dark: "/icon/work-experience-dark-icon.svg",
     alt: "Work Experience",
     size: "h-7 w-7",
   },
   {
+    page: "/projects",
     light: "/icon/project-icon.svg",
     dark: "/icon/project-dark-icon.svg",
     alt: "Projects",
     size: "h-[30px] w-[30px]",
   },
   {
+    page: "/contact",
     light: "/icon/contact-two-icon.svg",
     dark: "/icon/contact-dark-icon.svg",
     alt: "Contact",
@@ -36,7 +41,7 @@ const SidebarLayout = () => {
         <div className="w-full h-[24.7rem] bg-white dark:bg-secondaryDark rounded-2.5xl gradient-background">
           <div className="flex flex-col justify-between items-center h-full py-9">
             {iconData?.map((icon, index) => (
-              <div key={index} className={icon.size}>
+              <Link key={index} className={icon.size} to={`${icon.page}`}>
                 <img
                   src={icon.light}
                   alt={icon.alt}
@@ -47,7 +52,7 @@ const SidebarLayout = () => {
                   alt={icon.alt}
                   className="w-full h-full hidden dark:block"
                 />
-              </div>
+              </Link>
             ))}
           </div>
         </div>

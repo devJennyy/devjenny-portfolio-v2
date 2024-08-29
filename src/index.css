@@ -72,6 +72,15 @@
     position: relative;
 }
 
+.gradient-button {
+  background: linear-gradient(to right, #3461FF, #8454EB, #3461FF);
+  padding: 1px;
+}
+
+.gradient-button > .gradient-background-button {
+  background-color: #0C0E38;
+}
+
   .gradient > .gradient-background {
     background-color: #0C0E38;
   }

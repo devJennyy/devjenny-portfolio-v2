@@ -13,6 +13,13 @@ module.exports = {
         primaryDark: "#B1BAED",
         secondaryDark: "#0C0E38",
         tertiaryDark: "#212760",
+        gradient: {
+          azureBlue: "#3461FF",
+          neonPurple: "#8454EB",
+          lavenderMist: "#BAC1FF",
+          aquaGlow: "#63FEFE",
+          fuchsiaBlaze: "#FF3EEC",
+        },
       },
       borderRadius: {
         '2.5xl': '20px',
