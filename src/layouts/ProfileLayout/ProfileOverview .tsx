@@ -20,7 +20,7 @@ const ProfileOverview = () => {
           ></div>
           <div className="flex flex-col justify-center items-center gap-1">
             <p className="font-semibold text-[1.63rem]">Jenelyn Pieloor</p>
-            <p className="font-medium text-sm opacity-60 dark:opacity-85">
+            <p className="text-sm text-tertiary dark:text-primaryDark dark:opacity-85 tracking-wide">
               Front-End Developer
             </p>
           </div>

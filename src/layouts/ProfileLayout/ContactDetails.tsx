@@ -26,9 +26,9 @@ const ContactDetails = () => {
             <div className="flex justify-center items-center w-12 h-12 rounded-xl bg-secondary dark:bg-tertiaryDark opacity-80 text-white dark:text-primaryDark dark:opacity-100 z-0">
               {icon}
             </div>
-            <div className="flex flex-col justify-between h-full py-2">
-              <p className="text-sm opacity-85">{label}</p>
-              <p className="font-medium">{value}</p>
+            <div className="flex flex-col justify-between h-full py-[10px]">
+              <p className="text-sm text-tertiary dark:text-primaryDark dark:opacity-85 tracking-wide">{label}</p>
+              <p className="font-medium text-[15px]">{value}</p>
             </div>
           </div>
         ))}

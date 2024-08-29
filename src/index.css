@@ -21,7 +21,7 @@
   .faded-side-gradient::after {
     content: "";
     position: absolute;
-    left: -1%;
+    left: -5%;
     width: 110%;
     height: 1px;
     background: linear-gradient(
