@@ -1,7 +1,7 @@
 const Contact = () => {
-  return <a href="contact" className="">
-    <p>Coding!</p>
-  </a>;
+  return <div id="contact" className="w-full">
+    <p>Happy Coding!</p>
+  </div>;
 };
 
 export default Contact;

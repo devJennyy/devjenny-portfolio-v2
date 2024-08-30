@@ -1,7 +1,7 @@
 const Resume = () => {
-  return <a href="resume">
-    <p>World!</p>
-  </a>;
+  return <div id="resume" className="w-full">
+    <p>Hello World!</p>
+  </div>;
 };
 
 export default Resume;

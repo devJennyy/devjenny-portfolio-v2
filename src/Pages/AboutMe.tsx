@@ -6,13 +6,13 @@ import SocialLogos from "../components/SocialLogos";
 
 const AboutMe = () => {
   return (
-    <a href="about-me" className="w-full">
+    <div id="about-me" className="w-full">
       <Hero />
-      <AboutMeSection/>
-      <ServicesSection/>
-      <SocialLogos/>
-      <Footer/>
-    </a>
+      <AboutMeSection />
+      <ServicesSection />
+      <SocialLogos />
+      <Footer />
+    </div>
   );
 };
 
