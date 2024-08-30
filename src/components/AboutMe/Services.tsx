@@ -4,7 +4,7 @@ const ServicesSection = () => {
   return (
     <div className="flex flex-col w-full mt-24">
       <p className="font-semibold text-3xl">What I Do</p>
-      <div className="flex justify-between w-full h-[26.5rem] mt-16 gap-3">
+      <div className="flex justify-between w-full h-[26.5rem] mt-12 gap-3">
         <div className="w-full h-full bg-secondary/50 dark:bg-navyBlue/50 text-white dark:text-primaryDark p-7">
           <div className="flex flex-col items-center w-full h-full pt-12">
             <div className="w-14 h-14">

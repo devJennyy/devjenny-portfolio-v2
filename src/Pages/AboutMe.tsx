@@ -1,6 +1,7 @@
-import AboutMeSection from "../components/AboutMe/AboutMeSection";
+import AboutMeSection from "../components/AboutMe/AboutMe";
 import Hero from "../components/AboutMe/Hero";
-import ServicesSection from "../components/AboutMe/ServicesSection";
+import ServicesSection from "../components/AboutMe/Services";
+import SocialLogos from "../components/SocialLogos";
 
 const AboutMe = () => {
   return (
@@ -8,6 +9,7 @@ const AboutMe = () => {
       <Hero />
       <AboutMeSection/>
       <ServicesSection/>
+      <SocialLogos/>
     </a>
   );
 };
