@@ -20,7 +20,7 @@ const aboutMeContent = {
   ],
 };
 
-const AboutMeSection = () => {
+const ProfileOverview = () => {
   return (
     <div className="flex flex-col w-full mt-24">
       <div className="flex justify-start items-center gap-20">
@@ -75,4 +75,4 @@ const AboutMeSection = () => {
   );
 };
 
-export default AboutMeSection;
+export default ProfileOverview;

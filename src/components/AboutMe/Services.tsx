@@ -24,7 +24,7 @@ const servicesData = [
   },
 ];
 
-const ServicesSection = () => {
+const Services = () => {
   return (
     <div className="flex flex-col w-full mt-24">
       <p className="font-semibold text-3xl">What I Do!</p>
@@ -67,4 +67,4 @@ const ServicesSection = () => {
   );
 };
 
-export default ServicesSection;
+export default Services;
