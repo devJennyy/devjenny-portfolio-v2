@@ -13,7 +13,7 @@ function App() {
         <div className="flex justify-between items-start w-full h-full gap-8">
           <ProfileOverview />
           <div className="dark:gradient-two w-full">
-            <div className="w-full h-full bg-white dark:bg-secondaryDark rounded-tr-2.5xl rounded-tl-2.5xl p-14 pb-32 gradient-background border-transparent border-y-[0.5px] border-x dark:border-none">
+            <div className="w-full h-full bg-white dark:bg-secondaryDark rounded-tr-2.5xl rounded-tl-2.5xl gradient-background border-transparent border-y-[0.5px] border-x dark:border-none">
               <Routes>
                 <Route path="/about-me" element={<AboutMe />} />
                 <Route path="/resume" element={<Resume />} />

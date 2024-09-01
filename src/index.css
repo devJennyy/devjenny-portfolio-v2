@@ -32,6 +32,16 @@
     );
   }
 
+.text-gradient {
+  background: linear-gradient(to right, #BAC1FF, #63FEFE, #FF3EEC);
+  -webkit-background-clip: text; /* For WebKit browsers (Chrome, Safari) */
+  background-clip: text; /* For other browsers */
+  color: transparent; /* Hide default text color to show gradient */
+  display: inline; /* Ensure text is inline for proper gradient clipping */
+}
+
+
+
   :root {
     --primary-color: 111, 76, 255;
   }
@@ -87,6 +97,7 @@
   .gradient-flat > .gradient-background-flat {
     background-color: #0c0e38;
   }
+  
 }
 
 html,

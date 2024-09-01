@@ -1,12 +1,29 @@
+const footerText = {
+  creator: "Designed and developed by Jenny Pieloor",
+  yearCreated: "2024",
+};
+
+const backgroundImage = {
+  dark: "/images/footer-bg-dark.svg",
+  light: "/images/footer-bg.svg",
+};
+
 const Footer = () => {
   return (
-    <div className="w-full">
-      <div className="absolute bottom-0 left-0 z-0">
-        <img src="/images/footer-bg.svg" className="w-full h-full" />
+    <div className="w-full relative">
+      <div className="absolute bottom-0 left-0 z-0 w-full">
+        <img
+          src={backgroundImage.light}
+          className="w-full h-auto dark:hidden"
+        />
+        <img
+          src={backgroundImage.dark}
+          className="w-full h-auto dark:block hidden"
+        />
       </div>
-      <div className="flex flex-col justify-center items-center w-full text-[12px] gap-1 absolute bottom-[20px] left-0">
-        <p>Designed and developed by Jenny Pieloor</p>
-        <p>2024</p>
+      <div className="flex flex-col justify-center items-center w-full text-[12px] gap-1 relative z-10 py-4">
+        <p>{footerText.creator}</p>
+        <p>{footerText.yearCreated}</p>
       </div>
     </div>
   );

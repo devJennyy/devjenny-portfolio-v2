@@ -7,10 +7,12 @@ import SocialLogos from "../components/SocialLogos";
 const AboutMe = () => {
   return (
     <div id="about-me" className="w-full">
-      <Hero />
-      <AboutMeSection />
-      <ServicesSection />
-      <SocialLogos />
+      <div className="p-14">
+        <Hero />
+        <AboutMeSection />
+        <ServicesSection />
+        <SocialLogos />
+      </div>
       <Footer />
     </div>
   );
