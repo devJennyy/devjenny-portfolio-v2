@@ -107,12 +107,6 @@
     border-radius: 4px;
     border-image: linear-gradient(to right, #3461ff, #8454eb, #3461ff) 1;
   }
-
-  .element {
-    border-width: 2px;
-    border-style: solid;
-    border-color: red;
-  }
 }
 
 html,

@@ -19,6 +19,7 @@ module.exports = {
         navyBlue: "#1B204E",
         lightCoral: "#FF8888",
         gray: "#EEEEEE",
+        lightGray: "#C6C8D0",
         gradient: {
           azureBlue: "#3461FF",
           neonPurple: "#8454EB",
