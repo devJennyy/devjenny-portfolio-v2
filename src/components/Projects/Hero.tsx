@@ -1,5 +1,5 @@
 import { FaGithub } from "react-icons/fa";
-import { gradientTextStyles, separatorLineStyles } from "../../styles/styles";
+import { separatorLineStyles } from "../../styles/styles";
 
 const headingText = "Some things I've Built";
 
@@ -69,7 +69,7 @@ const Hero = () => {
                 <p className="text-sm text-tertiary dark:text-primaryDark dark:opacity-85 tracking-wide">
                   {project.title}
                 </p>
-                <p className={`font-medium text-[15px] dark:${gradientTextStyles}`}>
+                <p className="font-medium text-[15px] dark:text-primaryDark tracking-wide">
                   {project.projectName}
                 </p>
               </div>
