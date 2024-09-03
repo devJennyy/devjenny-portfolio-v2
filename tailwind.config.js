@@ -18,12 +18,16 @@ module.exports = {
         midnightBlue: "#212760",
         navyBlue: "#1B204E",
         lightCoral: "#FF8888",
+        gray: "#EEEEEE",
         gradient: {
           azureBlue: "#3461FF",
           neonPurple: "#8454EB",
           lavenderMist: "#BAC1FF",
           aquaGlow: "#63FEFE",
           fuchsiaBlaze: "#FF3EEC",
+        },
+        fontFamily: {
+          raleway: ['Raleway', 'sans-serif'],
         },
       },
       borderRadius: {

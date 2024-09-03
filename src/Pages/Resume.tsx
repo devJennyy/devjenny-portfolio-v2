@@ -1,6 +1,8 @@
+
 import Footer from "../components/Footer";
 import Education from "../components/Resume/Education";
-import WorkExperience from "../components/Resume/Workexperience";
+import WorkExperience from "../components/Resume/WorkExperience";
+import SocialLogos from "../components/SocialLogos";
 
 const Resume = () => {
   return (
@@ -8,6 +10,7 @@ const Resume = () => {
       <div className="p-14">
         <WorkExperience />
         <Education />
+        <SocialLogos />
       </div>
       <Footer />
     </div>
