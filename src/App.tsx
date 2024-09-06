@@ -5,6 +5,7 @@ import SidebarLayout from "./layouts/SidebarLayout/SidebarLayout";
 import ProfileOverview from "./layouts/ProfileLayout/ProfileOverview ";
 import Resume from "./Pages/Resume";
 import Contact from "./Pages/Contact";
+import ThesisProject from "./components/Projects/ThesisProject";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
                 <Route path="/resume" element={<Resume />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/thesis-project" element={<ThesisProject />} />
               </Routes>
             </div>
           </div>
