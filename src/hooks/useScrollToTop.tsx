@@ -5,21 +5,11 @@ const useScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    const handleScroll = () => {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-    };
-
-    handleScroll();
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   }, [pathname]);
-
-  return null;
 };
 
 export default useScrollToTop;
