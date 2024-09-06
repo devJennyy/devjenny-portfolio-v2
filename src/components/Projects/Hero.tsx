@@ -19,7 +19,7 @@ const projectData = [
     lightImageUrl: "/images/shop-online.png",
     darkImageUrl: "/images/shop-online-dark.png",
     githubUrl: "https://github.com/devJennyy/shop-online",
-    projectUrl: "/ecommerce-website",
+    projectUrl: "/shop-online",
   },
   {
     title: "Managing & Tracking App",
@@ -34,7 +34,7 @@ const projectData = [
     lightImageUrl: "/images/kwaii-verse.png",
     darkImageUrl: "/images/kwaii-verse-dark.png",
     githubUrl: "https://github.com/devJennyy/kawaii-verse",
-    projectUrl: "/anime-library",
+    projectUrl: "/kwaii-verse",
   },
   {
     title: "Managing Website",
@@ -42,7 +42,7 @@ const projectData = [
     lightImageUrl: "/images/jumpstart.png",
     darkImageUrl: "/images/jumpstart-dark.png",
     githubUrl: "https://github.com/devJennyy/jumpstart",
-    projectUrl: "/managing-website",
+    projectUrl: "/jumpstart",
   },
   {
     title: "Fun Project",
@@ -50,7 +50,7 @@ const projectData = [
     lightImageUrl: "/images/messaging-app.png",
     darkImageUrl: "/images/messaging-app-dark.png",
     githubUrl: "https://github.com/devJennyy/messaging-app",
-    projectUrl: "/fun-project/messaging-app",
+    projectUrl: "/messaging-app",
   },
   {
     title: "Fun Project",
@@ -58,7 +58,7 @@ const projectData = [
     lightImageUrl: "/images/spotify-clone.png",
     darkImageUrl: "/images/spotify-clone-dark.png",
     githubUrl: "https://github.com/devJennyy/spotify-clone",
-    projectUrl: "/fun-project/spotify-clone",
+    projectUrl: "/spotify-clone",
   },
 ];
 

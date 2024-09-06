@@ -6,6 +6,12 @@ import ProfileOverview from "./layouts/ProfileLayout/ProfileOverview ";
 import Resume from "./Pages/Resume";
 import Contact from "./Pages/Contact";
 import ThesisProject from "./components/Projects/ThesisProject";
+import ShopOnline from "./components/Projects/ShopOnline";
+import FinanceApp from "./components/Projects/FinanceApp";
+import KwaiiVerse from "./components/Projects/KwaiiVerse";
+import JumpStart from "./components/Projects/JumpStart";
+import MessagingApp from "./components/Projects/MessagingApp";
+import SpotifyClone from "./components/Projects/SpotifyClone";
 
 function App() {
   return (
@@ -21,6 +27,12 @@ function App() {
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/thesis-project" element={<ThesisProject />} />
+                <Route path="/shop-online" element={<ShopOnline />} />
+                <Route path="/finance-app" element={<FinanceApp />} />
+                <Route path="/kwaii-verse" element={<KwaiiVerse />} />
+                <Route path="/jumpstart" element={<JumpStart />} />
+                <Route path="/messaging-app" element={<MessagingApp />} />
+                <Route path="/spotify-clone" element={<SpotifyClone />} />
               </Routes>
             </div>
           </div>
