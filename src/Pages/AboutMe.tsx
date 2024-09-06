@@ -3,8 +3,10 @@ import Services from "../components/AboutMe/Services";
 import Footer from "../components/Footer";
 import SocialLogos from "../components/SocialLogos";
 import ProfileOverview from "../components/AboutMe/ProfileOverview";
+import useScrollToTop from "../hooks/useScrollToTop";
 
 const AboutMe = () => {
+  useScrollToTop();
   return (
     <div id="about-me" className="w-full">
       <div className="p-14">

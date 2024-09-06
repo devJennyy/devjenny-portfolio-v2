@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 import AboutMe from "./Pages/AboutMe";
 import Projects from "./Pages/Projects";
 import SidebarLayout from "./layouts/SidebarLayout/SidebarLayout";
@@ -14,11 +19,14 @@ import MessagingApp from "./components/Projects/MessagingApp";
 import SpotifyClone from "./components/Projects/SpotifyClone";
 
 function App() {
+  
   return (
     <Router>
       <div className="max-w-[1920px] mx-auto w-full pt-48 px-32 bg-lightmode dark:bg-darkmode">
         <div className="flex justify-between items-start w-full h-full gap-8">
-          <ProfileOverview />
+          <div className="sticky top-[12rem] self-start">
+            <ProfileOverview />
+          </div>
           <div className="dark:gradient-two w-full">
             <div className="w-full h-full bg-white dark:bg-secondaryDark rounded-tr-2.5xl rounded-tl-2.5xl gradient-background border-transparent border-y-[0.5px] border-x dark:border-none">
               <Routes>
@@ -37,7 +45,9 @@ function App() {
               </Routes>
             </div>
           </div>
-          <SidebarLayout />
+          <div className="sticky top-[12rem] self-start">
+            <SidebarLayout />
+          </div>
         </div>
       </div>
     </Router>
