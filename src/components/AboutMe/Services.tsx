@@ -11,7 +11,7 @@ const servicesData = [
   {
     title: "Front-end Development",
     description: false,
-    projects: "5 Projects",
+    projects: "8 Projects",
     imgSrc: "/icon/ui-designer-icon.svg",
     isHighlighted: true,
   },
