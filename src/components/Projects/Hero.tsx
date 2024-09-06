@@ -7,43 +7,56 @@ const projectData = [
   {
     title: "Thesis Project",
     projectName: "Event Management System",
-    imageUrl: "/images/image-placeholder.svg",
-    githubUrl: "https://github.com/your-repo/event-management-system",
+    lightImageUrl: "/images/wmsu-cce.png",
+    darkImageUrl: "/images/wmsu-cce-dark.png",
+    githubUrl: "https://github.com/devJennyy/cce-wmsu",
     projectUrl: "https://your-project-url.com/event-management-system",
   },
   {
     title: "Ecommerce Website",
     projectName: "Shop Online",
-    imageUrl: "/images/image-placeholder.svg",
-    githubUrl: "https://github.com/your-repo/shop-online",
+    lightImageUrl: "/images/shop-online.png",
+    darkImageUrl: "/images/shop-online-dark.png",
+    githubUrl: "https://github.com/devJennyy/shop-online",
     projectUrl: "https://your-project-url.com/shop-online",
   },
   {
-    title: "Managing Application",
+    title: "Managing & Tracking App",
     projectName: "Finance App",
-    imageUrl: "/images/image-placeholder.svg",
-    githubUrl: "https://github.com/your-repo/finance-app",
+    lightImageUrl: "/images/finance-app.png",
+    darkImageUrl: "/images/finance-app-dark.png",
     projectUrl: "https://your-project-url.com/finance-app",
+  },
+  {
+    title: "Anime Library",
+    projectName: "Kwaii-Verse",
+    lightImageUrl: "/images/kwaii-verse.png",
+    darkImageUrl: "/images/kwaii-verse-dark.png",
+    githubUrl: "https://github.com/devJennyy/kawaii-verse",
+    projectUrl: "https://your-project-url.com/messaging-app",
   },
   {
     title: "Managing Website",
     projectName: "JumpStart",
-    imageUrl: "/images/image-placeholder.svg",
-    githubUrl: "https://github.com/your-repo/jumpstart",
+    lightImageUrl: "/images/jumpstart.png",
+    darkImageUrl: "/images/jumpstart-dark.png",
+    githubUrl: "https://github.com/devJennyy/jumpstart",
     projectUrl: "https://your-project-url.com/jumpstart",
   },
   {
     title: "Fun Project",
     projectName: "Messaging App",
-    imageUrl: "/images/image-placeholder.svg",
-    githubUrl: "https://github.com/your-repo/messaging-app",
+    lightImageUrl: "/images/messaging-app.png",
+    darkImageUrl: "/images/messaging-app-dark.png",
+    githubUrl: "https://github.com/devJennyy/messaging-app",
     projectUrl: "https://your-project-url.com/messaging-app",
   },
   {
     title: "Fun Project",
     projectName: "Spotify Clone",
-    imageUrl: "/images/image-placeholder.svg",
-    githubUrl: "https://github.com/your-repo/spotify-clone",
+    lightImageUrl: "/images/spotify-clone.png",
+    darkImageUrl: "/images/spotify-clone-dark.png",
+    githubUrl: "https://github.com/devJennyy/spotify-clone",
     projectUrl: "https://your-project-url.com/spotify-clone",
   },
 ];
@@ -63,7 +76,17 @@ const Hero = () => {
             href={project.projectUrl}
             className="flex flex-col text-left max-w-[20rem] w-full h-full bg-lightGray/10 border border-lightGray/0 dark:hover:border-gradient-azureBlue hover:border-secondary rounded-xl p-4"
           >
-            <div className="w-full h-56 bg-cover bg-center rounded-xl" style={{ backgroundImage: `url(${project.imageUrl})` }}></div>
+            <img
+              src={project.lightImageUrl}
+              alt={`${project.projectName} lightmode image`}
+              className="w-full h-56 object-cover rounded-xl dark:hidden"
+            />
+            <img
+              src={project.darkImageUrl}
+              alt={`${project.projectName} darkmode image`}
+              className="w-full h-56 object-cover rounded-xl hidden dark:block"
+            />
+
             <div className="flex justify-between items-end w-full">
               <div className="flex flex-col gap-[2px] mt-4 ml-1">
                 <p className="text-sm text-tertiary dark:text-primaryDark dark:opacity-85 tracking-wide">
@@ -74,9 +97,11 @@ const Hero = () => {
                 </p>
               </div>
               <div className="flex gap-2 mb-1">
-                <a href={project.githubUrl} className="text-secondary dark:text-primaryDark">
-                  <FaGithub size={17} />
-                </a>
+                {project.githubUrl && (
+                  <a href={project.githubUrl} className="text-secondary dark:text-primaryDark">
+                    <FaGithub size={17} />
+                  </a>
+                )}
                 <div className="h-1">
                   <img src="/icon/arrow-light.svg" className="dark:hidden" alt="arrow-light" />
                   <img src="/icon/arrow-dark.svg" className="dark:block hidden" alt="arrow-dark" />
