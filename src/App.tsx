@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import AboutMe from "./Pages/AboutMe";
 import Projects from "./Pages/Projects";
 import SidebarLayout from "./layouts/SidebarLayout/SidebarLayout";
@@ -22,6 +22,7 @@ function App() {
           <div className="dark:gradient-two w-full">
             <div className="w-full h-full bg-white dark:bg-secondaryDark rounded-tr-2.5xl rounded-tl-2.5xl gradient-background border-transparent border-y-[0.5px] border-x dark:border-none">
               <Routes>
+                <Route path="/" element={<Navigate to="/about-me" replace />} />
                 <Route path="/about-me" element={<AboutMe />} />
                 <Route path="/resume" element={<Resume />} />
                 <Route path="/projects" element={<Projects />} />
