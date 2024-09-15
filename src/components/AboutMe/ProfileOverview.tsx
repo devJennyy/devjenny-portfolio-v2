@@ -7,6 +7,7 @@ const techStacks = [
   { name: "JavaScript", icon: <RiReactjsLine size={21} /> },
   { name: "TailwindCSS", icon: <RiReactjsLine size={21} /> },
   { name: "Strapi", icon: <RiReactjsLine size={21} /> },
+  { name: "Framer Motion", icon: <RiReactjsLine size={21} /> },
   { name: "HTML", icon: <RiReactjsLine size={21} /> },
   { name: "CSS5", icon: <RiReactjsLine size={21} /> },
 ];
@@ -30,7 +31,7 @@ const ProfileOverview = () => {
         ></div>
       </div>
       <div className="flex justify-between mt-10 w-full">
-        <div className="flex justify-center items-center max-w-[38.5rem] w-full bg-lightCoral dark:bg-midnightBlue p-12 relative">
+        <div className="flex justify-center items-center max-w-[40rem] w-full bg-lightCoral dark:bg-midnightBlue p-12 relative">
           <div className="absolute top-6 left-6">
             <img src="/icon/quotation-icon.svg" className="dark:hidden" />
             <img
@@ -44,9 +45,9 @@ const ProfileOverview = () => {
             ))}
           </div>
         </div>
-        <div className="flex flex-col max-w-[15rem] w-full gap-5">
+        <div className="flex flex-col max-w-[16rem] w-full gap-5">
           <p
-            className={`font-semibold text-2xl text-secondary dark:${gradientTextStyles}`}
+            className={`font-semibold text-3xl text-secondary dark:${gradientTextStyles}`}
           >
             Tech Stacks
           </p>
