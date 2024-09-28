@@ -1,5 +1,6 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { separatorLineStyles, gradientTextStyles } from "../../styles/styles";
+import { motion } from "framer-motion";
 
 const techStacks = [
   { name: "ReactJS", icon: <RiReactjsLine size={21} /> },
@@ -51,7 +52,15 @@ const ProfileOverview = () => {
           >
             Tech Stacks
           </p>
-          <div className="flex flex-col gap-2">
+          {/* Wrap the entire list of stacks in a single motion.div */}
+          <motion.div
+            className="flex flex-col gap-2"
+            // Animate all cards at once
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.5 }}
+          >
             {techStacks?.map((stack, index) => (
               <div
                 key={index}
@@ -69,7 +78,7 @@ const ProfileOverview = () => {
                 </div>
               </div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

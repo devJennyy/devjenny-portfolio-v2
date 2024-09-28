@@ -28,14 +28,14 @@ const ProfileOverview = () => {
           <SocialLinks />
 
           <div className="flex items-center w-full gap-3 text-[13px] tracking-wide font-medium cursor-pointer mt-2">
-            <button className="flex justify-center items-center h-12 w-full bg-secondary opacity-80 rounded-lg gap-2 dark:btn dark:btn-gradient-border dark:btn-glow text-white dark:text-primaryDark dark:opacity-100">
+            <a href="mailto:devjenny.official@gmail.com" className="flex justify-center items-center h-12 w-full bg-secondary opacity-80 rounded-lg gap-2 dark:btn dark:btn-gradient-border dark:btn-glow text-white dark:text-primaryDark dark:opacity-100">
               {WhatsappIcon}
               <p>Contact Me</p>
-            </button>
-            <button className="flex justify-center items-center h-12 w-full bg-secondary opacity-80 rounded-lg gap-2 dark:btn dark:btn-gradient-border dark:btn-glow text-white dark:text-primaryDark dark:opacity-100">
+            </a>
+            <a href="/Resume.pdf" className="flex justify-center items-center h-12 w-full bg-secondary opacity-80 rounded-lg gap-2 dark:btn dark:btn-gradient-border dark:btn-glow text-white dark:text-primaryDark dark:opacity-100">
               {DownloadIcon}
               <p>Download CV</p>
-            </button>
+            </a>
           </div>
         </div>
       </div>
