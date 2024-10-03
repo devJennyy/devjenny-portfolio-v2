@@ -1,13 +1,10 @@
-
+import { useLocation } from "react-router-dom";
+import ProjectDetails from "./ProjectDetails";
 
 const ShopOnline = () => {
-  return (
-    <div id="shop-online" className="w-full h-full">
-      <div className="p-14">
-        <p className="text-sm">Shop Online</p>
-      </div>
-    </div>
-  )
-}
+  const location = useLocation();
+  const { data } = location.state || {};
+  return <ProjectDetails data={data} />;
+};
 
-export default ShopOnline
+export default ShopOnline;

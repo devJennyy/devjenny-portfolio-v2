@@ -1,13 +1,11 @@
+import { useLocation } from "react-router-dom";
+import ProjectDetails from "./ProjectDetails";
 
 
 const JumpStart = () => {
-  return (
-    <div id="jumpstart" className="w-full h-full">
-      <div className="p-14">
-        <p className="text-sm">Jumpstart</p>
-      </div>
-    </div>
-  )
-}
+  const location = useLocation();
+  const { data } = location.state || {};
+  return <ProjectDetails data={data} />;
+};
 
 export default JumpStart

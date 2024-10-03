@@ -1,13 +1,11 @@
+import { useLocation } from "react-router-dom";
+import ProjectDetails from "./ProjectDetails";
 
 
 const SpotifyClone = () => {
-  return (
-    <div id="spotify-clone" className="w-full h-full">
-      <div className="p-14">
-        <p className="text-sm">Spotify Clone</p>
-      </div>
-    </div>
-  )
-}
+  const location = useLocation();
+  const { data } = location.state || {};
+  return <ProjectDetails data={data} />;
+};
 
 export default SpotifyClone

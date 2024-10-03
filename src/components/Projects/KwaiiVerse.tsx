@@ -1,13 +1,11 @@
+import { useLocation } from "react-router-dom";
+import ProjectDetails from "./ProjectDetails";
 
 
 const KwaiiVerse = () => {
-  return (
-    <div id="kwaii-verse" className="w-full h-full">
-      <div className="p-14">
-        <p className="text-sm">KwaiiVerse</p>
-      </div>
-    </div>
-  )
-}
+  const location = useLocation();
+  const { data } = location.state || {};
+  return <ProjectDetails data={data} />;
+};
 
 export default KwaiiVerse

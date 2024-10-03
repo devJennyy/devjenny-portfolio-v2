@@ -1,13 +1,11 @@
+import { useLocation } from "react-router-dom";
+import ProjectDetails from "./ProjectDetails";
 
 
 const FinanceApp = () => {
-  return (
-    <div id="finance-app" className="w-full h-full">
-      <div className="p-14">
-        <p className="text-sm">Finance app</p>
-      </div>
-    </div>
-  )
-}
+  const location = useLocation();
+  const { data } = location.state || {};
+  return <ProjectDetails data={data} />;
+};
 
 export default FinanceApp

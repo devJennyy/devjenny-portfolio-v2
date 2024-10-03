@@ -32,7 +32,7 @@ const ProfileOverview = () => {
               {WhatsappIcon}
               <p>Contact Me</p>
             </a>
-            <a href="/Resume.pdf" className="flex justify-center items-center h-12 w-full bg-secondary opacity-80 rounded-lg gap-2 dark:btn dark:btn-gradient-border dark:btn-glow text-white dark:text-primaryDark dark:opacity-100">
+            <a href="/Pieloor,Jenny-Resume.pdf" target="_blank" className="flex justify-center items-center h-12 w-full bg-secondary opacity-80 rounded-lg gap-2 dark:btn dark:btn-gradient-border dark:btn-glow text-white dark:text-primaryDark dark:opacity-100">
               {DownloadIcon}
               <p>Download CV</p>
             </a>

@@ -1,13 +1,11 @@
+import { useLocation } from "react-router-dom";
+import ProjectDetails from "./ProjectDetails";
 
 
 const MessagingApp = () => {
-  return (
-    <div id="messaging-app" className="w-full h-full">
-      <div className="p-14">
-        <p className="text-sm">Messaging App</p>
-      </div>
-    </div>
-  )
-}
+  const location = useLocation();
+  const { data } = location.state || {};
+  return <ProjectDetails data={data} />;
+};
 
 export default MessagingApp
