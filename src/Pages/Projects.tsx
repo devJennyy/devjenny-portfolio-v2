@@ -10,7 +10,7 @@ const projectDescriptionData = [
     title: "Western Mindanao State University Center of Continuing Education Event",
     subtitle: "Management System",
     description: "A web application designed to offer training programs and reviews to both university clients and external customers, while also managing events for Western Mindanao State University Center of Continuing Education. The application enables users to create and update events, invite speakers, and send attendance QR codes via email.",
-    images: ["/images/wmsu-cce/admin-dashboard.png"],
+    images: ["/images/wmsu-cce/admin-dashboard.png", "/images/wmsu-cce/admin-dashboard.png"],
     githubLink: "https://github.com/devJennyy/cce-wmsu",
   },
   {
