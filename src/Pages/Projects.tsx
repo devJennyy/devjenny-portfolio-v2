@@ -9,8 +9,8 @@ const projectDescriptionData = [
     tag: "Thesis Project",
     title: "Western Mindanao State University Center of Continuing Education Event",
     subtitle: "Management System",
-    description: "A web application designed to offer training programs and reviews to both university clients and external customers, while also managing events for Western Mindanao State University Center of Continuing Education. The application enables users to create and update events, invite speakers, and send attendance QR codes via email.",
-    images: ["/images/wmsu-cce/admin-dashboard.png", "/images/wmsu-cce/admin-dashboard.png"],
+    description: "A web application designed to offer training programs and reviews to both university clients and external customers, while also managing events for the Western Mindanao State University Center of Continuing Education. The platform allows users to create and update events, join and subscribe to events, invite speakers, send attendance QR codes via email, and generate certificates.",
+    images: ["/images/wmsu-cce/image-one.png", "/images/wmsu-cce/image-two.png", "/images/wmsu-cce/image-three.png", "/images/wmsu-cce/image-four.png", "/images/wmsu-cce/image-five.png"],
     githubLink: "https://github.com/devJennyy/cce-wmsu",
   },
   {
@@ -20,6 +20,7 @@ const projectDescriptionData = [
     description: "A full frontend e-commerce website made in ReactJS, TailwindCSS, Typescript to create a modern online shopping experience. I integrated additional libraries such as ShadCN for enhanced user interface components, aceternity for other features, and EmblaCarousel for seamless product image carousels",
     images: [""],
     githubLink: "https://github.com/devJennyy",
+    figmaLink: "https://github.com/devJennyy",
   },
   {
     tag: "Expense Tracker",
