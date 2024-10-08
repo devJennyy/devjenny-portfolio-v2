@@ -13,6 +13,11 @@ const projectDetailsData = [
       "/images/wmsu-cce/image-three.png",
       "/images/wmsu-cce/image-four.png",
       "/images/wmsu-cce/image-five.png",
+      "/images/wmsu-cce/image-six.png",
+      "/images/wmsu-cce/image-seven.png",
+      "/images/wmsu-cce/image-eight.png",
+      "/images/wmsu-cce/image-nine.png",
+      "/images/wmsu-cce/image-ten.png",
     ],
     githubLink: "https://github.com/devJennyy/cce-wmsu",
     userRoles: [
