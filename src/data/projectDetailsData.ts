@@ -19,7 +19,9 @@ const projectDetailsData = [
       "/images/wmsu-cce/image-nine.png",
       "/images/wmsu-cce/image-ten.png",
     ],
-    githubLink: "https://github.com/devJennyy/cce-wmsu",
+    p1: "Here are the top 10 features of the web application. To explore the full project, feel free to visit my",
+    item1Name: "Github.",
+    item1Link: "https://github.com/devJennyy/cce-wmsu",
     userRoles: [
       {
         overviewHeader: "Administrators",
@@ -46,8 +48,18 @@ const projectDetailsData = [
     subtitle: "Online",
     description:
       "A full frontend e-commerce website made in ReactJS, TailwindCSS, Typescript to create a modern online shopping experience. I integrated additional libraries such as ShadCN for enhanced user interface components, aceternity for other features, and EmblaCarousel for seamless product image carousels",
-    images: [""],
-    githubLink: "https://github.com/devJennyy",
+    images: ["/images/shopaholic/image-one.png",
+      "/images/shopaholic/image-two.png",
+      "/images/shopaholic/image-three.png",
+      "/images/shopaholic/image-four.png",
+      "/images/shopaholic/image-five.png",
+      "/images/shopaholic/image-six.png",],
+      p1: "Check out the complete website through this",
+      item1Name: "Link",
+      item1Link: "https://shop-online-devjenny.vercel.app",
+      p2: "or you can explore the full project code on my",
+      item2Name: "Github.",
+      item2Link: "https://github.com/devJennyy/shop-online",
   },
 
   // Finance App  ✦ .  ⁺   .  ✦  . ⁺  .  ✦
@@ -67,7 +79,12 @@ const projectDetailsData = [
     subtitle: "Verse",
     description: "",
     images: [""],
-    githubLink: "https://github.com/devJennyy",
+    p1: "Check out the complete website through this",
+      item1Name: "Link",
+      item1Link: "https://kawaii-verse.vercel.app",
+      p2: "or you can explore the full project code on my",
+      item2Name: "Github.",
+      item2Link: "https://github.com/devJennyy/kawaii-verse",
   },
 
   // JumpStart  ✦ .  ⁺   .  ✦  . ⁺  .  ✦
@@ -77,7 +94,12 @@ const projectDetailsData = [
     subtitle: "Start",
     description: "",
     images: [""],
-    githubLink: "https://github.com/devJennyy",
+    p1: "Check out the complete website through this",
+      item1Name: "Link",
+      item1Link: "https://jumpstart-devjenny.vercel.app",
+      p2: "or you can explore the full project code on my",
+      item2Name: "Github.",
+      item2Link: "https://github.com/devJennyy/jumpstart",
   },
 
   // Messaging App  ✦ .  ⁺   .  ✦  . ⁺  .  ✦
@@ -87,7 +109,12 @@ const projectDetailsData = [
     subtitle: "App",
     description: "",
     images: [""],
-    githubLink: "https://github.com/devJennyy",
+    p1: "Check out the complete website through this",
+      item1Name: "Link",
+      item1Link: "https://messaging-app-devjenny.vercel.app/",
+      p2: "or you can explore the full project code on my",
+      item2Name: "Github.",
+      item2Link: "https://github.com/devJennyy/messaging-app",
   },
 
   // Spotify Clone  ✦ .  ⁺   .  ✦  . ⁺  .  ✦
@@ -97,7 +124,12 @@ const projectDetailsData = [
     subtitle: "App",
     description: "",
     images: [""],
-    githubLink: "https://github.com/devJennyy",
+    p1: "Check out the complete website through this",
+      item1Name: "Link",
+      item1Link: "https://spotify-clone-devjenny.vercel.app",
+      p2: "or you can explore the full project code on my",
+      item2Name: "Github.",
+      item2Link: "https://github.com/devJennyy/spotify-clone",
   },
 ];
 

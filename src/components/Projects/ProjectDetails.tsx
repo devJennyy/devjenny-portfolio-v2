@@ -114,16 +114,22 @@ const ProjectDetails = ({ data }: Props) => {
       </div>
       <div className="max-w-[39rem] w-full text-center text-primary/50 dark:text-primaryDark/70 mt-[-1.7rem]">
         <p>
-          Here are the top 10 features of the web application. To explore the
-          full project, feel free to visit my
+          {data.p1}
           <a
             target="_blank"
-            href={data.githubLink}
+            href={data.item1Link}
+            className={`text-secondary dark:${gradientTextStyles} font-medium mx-1 hover:underline-offset-4 hover:underline cursor-pointer`}
+          >
+            {data.item1Name}
+          </a>
+          {data.p2}
+          <a
+            target="_blank"
+            href={data.item2Link}
             className={`text-secondary dark:${gradientTextStyles} font-medium ml-1 hover:underline-offset-4 hover:underline cursor-pointer`}
           >
-            GitHub
+            {data.item2Name}
           </a>
-          .
         </p>
       </div>
 
