@@ -21,7 +21,7 @@ const Footer = () => {
           className="w-full h-auto dark:block hidden"
         />
       </div>
-      <div className="flex flex-col justify-center items-center w-full text-[12px] gap-1 relative z-10 py-4 text-secondary dark:text-primaryDark">
+      <div className="flex flex-col justify-center items-center w-full text-[12px] gap-1 relative z-10 py-4 text-secondary/80 font-medium dark:text-primaryDark/80">
         <p>{footerText.creator}</p>
         <p>{footerText.yearCreated}</p>
       </div>

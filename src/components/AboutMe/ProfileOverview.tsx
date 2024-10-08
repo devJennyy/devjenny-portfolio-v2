@@ -52,10 +52,8 @@ const ProfileOverview = () => {
           >
             Tech Stacks
           </p>
-          {/* Wrap the entire list of stacks in a single motion.div */}
           <motion.div
             className="flex flex-col gap-2"
-            // Animate all cards at once
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
