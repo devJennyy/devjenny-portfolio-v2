@@ -18,19 +18,3 @@ export const techStacks: TechStack[] = [
   { name: "MySQL", icon: React.createElement(GrMysql, { size: 21 }) },
   { name: "PHP", icon: React.createElement(FaPhp, { size: 21 }) },
 ];
-
-// User roles data
-export const userRoles = [
-  {
-    overviewHeader: "Administrators",
-    overviewDescription: "have access to tools for creating and updating events, adding participants and speakers, generating certificates, sending email notifications to inform participants about upcoming events, and generating unique QR codes for walk-in participants to ensure eligibility."
-  },
-  {
-    overviewHeader: "Faculty members",
-    overviewDescription: "can join and subscribe to events, view all CCE events, replay past events they’ve attended, download certificates from their account, take assessments, and rate both events and speakers. They can also join organizations."
-  },
-  {
-    overviewHeader: "Organizations",
-    overviewDescription: "can create events (subject to admin approval), add participants and speakers, generate certificates, send event notifications via email, and issue unique QR codes for walk-in participants. They can also join and subscribe for other events."
-  }
-];

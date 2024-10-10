@@ -60,6 +60,17 @@ const projectDetailsData = [
       p2: "or you can explore the full project code on my",
       item2Name: "Github.",
       item2Link: "https://github.com/devJennyy/shop-online",
+      userRoles: [
+        {
+          overviewHeader: "ShopOnline",
+          overviewDescription:
+            "is an e-commerce frontend website designed to offer a seamless shopping experience with a clean user interface, ensuring a smooth and engaging user experience.",
+        },
+        {
+          overviewDescription:
+            "The platform enhances the user's online shopping journey with a clean, seamless, and comprehensive interface, ensuring they can easily find exactly what they need. I personally designed the user interface using Figma and integrated it with React, Tailwind CSS, and TypeScript. I also utilized libraries such as Shadcn for specific components, EmblaCarousel for a smooth image carousel, and added animations using AceternityUI to enrich the overall experience.",
+        },
+      ],
   },
 
   // Finance App  ✦ .  ⁺   .  ✦  . ⁺  .  ✦

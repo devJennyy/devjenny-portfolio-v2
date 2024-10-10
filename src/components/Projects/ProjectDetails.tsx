@@ -8,7 +8,7 @@ import Footer from "../Footer";
 import SocialLogos from "../SocialLogos";
 import { IoIosRocket } from "react-icons/io";
 import { HiMiniWrenchScrewdriver } from "react-icons/hi2";
-import { techStacks, userRoles } from "../../data/projectOtherInfoData";
+import { techStacks} from "../../data/projectOtherInfoData";
 
 interface Props {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -160,11 +160,11 @@ const ProjectDetails = ({ data }: Props) => {
             </div>
 
             <div className="dark:gradient-flat w-full rounded-[2rem]">
-              <div className="w-full h-full border-secondary border dark:border-none rounded-[2rem] gradient-background-two">
+              <div className="w-full max-w-[630px] h-full border-secondary border dark:border-none rounded-[2rem] gradient-background-two">
                 <div className="flex flex-col gap-5 p-10">
-                  {userRoles.map((role) => (
-                    <p className="text-[15px]" key={role.overviewHeader}>
-                      <span className="font-bold">{role.overviewHeader}</span>,{" "}
+                  {data.userRoles.map((role: { overviewHeader: string; overviewDescription: string }, index: number) => (
+                    <p className="text-[15px]" key={index}>
+                      <span className="font-bold">{role.overviewHeader}</span>{" "}
                       {role.overviewDescription}
                     </p>
                   ))}

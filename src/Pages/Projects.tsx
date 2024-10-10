@@ -47,7 +47,7 @@ const Projects = () => {
           </p>
         </div>
         {project.githubUrl && (
-          <a
+          <a target="_blank"
             href={project.githubUrl}
             className="text-secondary dark:text-primaryDark mb-[3px]"
           >
